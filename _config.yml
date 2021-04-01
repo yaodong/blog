@@ -1,49 +1,48 @@
-# Setup
-title: after
-tagline: '_'
-url: https://after.dev
-paginate: 1
-baseurl: ""
-permalink: pretty
+# Site settings
+title:          after.dev
+description:    ""
+url:            "https://after.dev"
+
+# Author
+author:
+  name:         Yaodong Zhao
+  url:          https://yaodong.org
+  email:        yaodong@hey.com
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
 
 # Gems
 plugins:
-  - jekyll-gist
+  - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
 
-# Optimize Jekyll
-exclude:
-  - .editorconfig
-  - .git
-  - .jekyll-cache
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE.md
-  - README.md
-  - CNAME
+# Permalinks
+permalink:      pretty
+paginate:       5
 
-sass:
-  sass_dir: _sass
-  style: :compressed
+# jekyll-feed
+feed:
+  path: feed.xml
 
 defaults:
-  -
-    scope:
-      path: "_posts"
+  - scope:
+      path: '_posts'
+      type: 'posts'
     values:
-      layout: "post"
+      layout: 'post'
 
-# Options
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
 
-# Replace this value and uncomment to enable Google Analytics tracking
-# ga_analytics: UA-000000-0
 
-# Specify the author for blog posts
-author:
-  name: Yaodong Zhao
-  url: https://twitter.com/YaodongOrg
-  email: yaodong@hey.com
-
-# Custom vars
-version: 3.0.0
