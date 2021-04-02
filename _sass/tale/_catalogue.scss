@@ -4,11 +4,6 @@
     display: block;
     padding-top: 2rem;
 
-    &:hover .catalogue-line,
-    &:focus .catalogue-line {
-      width: 5rem;
-    }
-
     &:last-child {
       border: 0;
     }
@@ -16,8 +11,7 @@
 
   &-time {
     color: $default-tint;
-    font-family: $serif-secondary;
-    letter-spacing: .5px;
+    font-size: 0.9em;
   }
 
   &-title {
@@ -27,13 +21,6 @@
     font-size: 1.36rem;
     font-weight: 700;
     margin: .5rem 0;
-  }
-
-  &-line {
-    @include transition(all .3s ease-out);
-    border-top: .2rem solid $default-shade;
-    display: block;
-    width: 2rem;
   }
 
   &-abstract {
