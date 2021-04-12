@@ -45,4 +45,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-
+disqus: yaodong

@@ -1,6 +1,7 @@
 ---
 title: Migrating to Doom Emacs
 date: 2020-07-07
+comments: true
 ---
 
 
@@ -49,4 +50,4 @@ should also include vanilla Emacs if you're not an expert Emacs person.
   [really quickly]: https://www.reddit.com/r/emacs/comments/f3ed3r/
   [Zettelkasten]: https://en.wikipedia.org/wiki/Zettelkasten
   [Migrating from Emacs to Doom]: https://irreal.org/blog/?p=8744
-  
+
