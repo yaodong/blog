@@ -1,7 +1,9 @@
 # Site settings
-title:          "after: _"
+title:          "yaodong/articles"
 description:    ""
-url:            "https://after.dev"
+url:            "https://yaodong.org"
+baseurl:        "/articles"
+
 
 # Author
 author:
@@ -26,7 +28,7 @@ plugins:
   - jekyll-seo-tag
 
 # Permalinks
-permalink:      pretty
+permalink:      /:title/
 paginate:       5
 
 # jekyll-feed
