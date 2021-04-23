@@ -29,7 +29,7 @@ plugins:
 
 # Permalinks
 permalink:      /:title/
-paginate:       5
+paginate:       10
 
 # jekyll-feed
 feed:
