@@ -1,8 +1,8 @@
 # Site settings
-title:          "yaodong/articles"
+title:          "yaodong/logs"
 description:    ""
 url:            "https://yaodong.org"
-baseurl:        "/articles"
+baseurl:        "/logs"
 
 
 # Author
